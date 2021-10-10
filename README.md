@@ -15,7 +15,7 @@ As we all know in today’s time we have many platforms to connect with people, 
 
 3. If someone wants to learn or share about new technology then there is a blog type section where anyone can post about any topic or any experience and from here you can also approach the experienced person .
 
-4. Especially, in this pandemic time, everyone is stuck at their homes so they are facing issues in their studies or if they want to know or discuss about any new thing, then they can join or build communities and discuss with people of similar interests freely.
+4. Especially, in this pandemic time, everyone is stuck at their homes so they are facing issues in their studies or if they want to know or discuss about any new thing, then they can join or build communities and discuss with people of similar interests freely.....
 
 
 
