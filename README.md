@@ -1,4 +1,4 @@
-# QLink
+# QLink-ACMW 21 Hackathon
 1. In this fastly growing world, we always want to connect with people and build a community with  people having the same interests.Now the question is how you can do that. One way is, people find their friends and peer group in college or school. But what about those who are introverts or as we all know these all things are going online nowadays due to pandemic and  it is highly needed to have a social platform where people with same interest across the world can connect and discuss things by building different communities..  
 
 2.  We are always curious about new technologies in that field. In the way of learning something new we all face problems or have doubts like what would be good resources, what would be the prerequisites etc. In that case it will always give us the upper hand if we have a mentor or an experienced person's guidance.
