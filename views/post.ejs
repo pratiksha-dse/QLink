@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="/assets/css/post.css">
+
+    <title>Post</title>
+</head>
+
+<body>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="row align-items-stretch no-gutters contact-wrap">
+                <div class="col-md-12">
+                    <div class="form h-100">
+                        <h3>Post Something</h3>
+                        <form class="mb-5" method="post" id="postForm" name="postForm">
+                            <div class="row">
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="" class="col-form-label">Title</label>
+                                    <input type="text" class="form-control" name="title" id="title"
+                                        placeholder="  Post Title">
+                                </div>
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="topic" class="col-form-label">Topic</label>
+                                    <select class="custom-select" id="topic" name="topic">
+                                        <option selected>Choose...</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Math">Math</option>
+                                        <option value="Maeketing">Marketing</option>
+                                        <option value="Web Development">Web Development</option>
+                                        <option value="Data Science">Data Science</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mb-3">
+                                    <label for="postImg" class="col-form-label">Post Image</label>
+                                    <input type='file' class="form-control" id="postImg" name="postImg">
+                                    <div class="invalid-feedback">
+                                        Please choose a valid picture.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group mb-3">
+                                    <img id="selected-image" width="250" height="150" src="#" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mb-3">
+                                    <div class="progress bg-secondary">
+                                        <div class="progress-bar bg-success" id="upload-progrss" style="width: 0%;">0%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mb-3">
+                                    <label for="post" class="col-form-label">Post-Content *</label>
+                                    <textarea class="form-control" name="post" id="postBlog" cols="30" rows="4"
+                                        placeholder="Write your blog"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <button id="post" class="btn btn-primary rounded-0">Post your Blog</button>
+                                </div>
+                            </div>
+                          
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/assets/js/post.js"></script>
+    <script src=/assets/js/index.js></script>
+    <script type="module" src="/assets/js/auth_state.js"></script>
+
+</body>
+
+</html>
