@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" post="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="/assets/css/post.css">
+
+    <title>Question</title>
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <div class="profile">
+                <img src="/assets/img/profile-img.jpg" id="photo" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light"><a href="/views/profile.html">Alex Smith</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li><button id="home" class="nav-link scrollto"><i class="bx bx-user"></i>
+                            <span>Home</span></button></li>
+                    <li><button id="blog" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Post
+                                Something</span></button></li>
+                    <li><button id="ques" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Ask
+                                Something</span></button></li>
+                    <li><a href="#newques" class="nav-link scrollto"><i class="bx bx-user"></i> <span>All New
+                                Questions</span></a></li>
+                    <li><button id='signout'><i class="bx bx-user"></i>&nbsp; Sign Out</button></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+        </div>
+    </header><!-- End Header -->
+    <main id="main">
+        <div>
+            <div class="row align-items-stretch no-gutters contact-wrap">
+                <div class="col-md-12">
+                    <div class="form h-100" style="height: 100%; padding: 95px;">
+                        <h3>Ask your question here</h3>
+                        <div class="row">
+                            <div class="col-md-12 form-group mb-3">
+                                <label for="ques" class="col-form-label">Question</label>
+                                <textarea class="form-control" name="ques" id="ques" cols="30" rows="4"
+                                    placeholder="Do you have any Question? Ask your doubt here..."></textarea>
+                                <div class="invalid-feedback">
+                                    Please add a question.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6 form-group mb-3">
+                                        <label for="" class="col-form-label">Title</label>
+                                        <input type="text" class="form-control" name="title" id="title"
+                                            placeholder="  Post Title">
+                                    </div> -->
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="topic" class="col-form-label">Topic</label>
+                                <select class="custom-select" id="topic" name="topic">
+                                    <option selected>Choose...</option>
+                                    <option value="Science">Science</option>
+                                    <option value="Math">Math</option>
+                                    <option value="Maeketing">Marketing</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Data Science">Data Science</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please choose a topic.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group mb-3">
+                                <label for="quesImg" class="col-form-label">Question Image</label>
+                                <input type='file' class="form-control" id="quesImg" name="quesImg">
+                                <div class="invalid-feedback">
+                                    Please choose a valid picture.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <img id="selected-image" width="250" height="150" src="#" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group mb-3">
+                                <div class="progress bg-secondary">
+                                    <div class="progress-bar bg-success" id="upload-progrss" style="width: 0%;">
+                                        0%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button id="ask" class="btn btn-primary rounded-0">Submit your
+                                    question</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <div id="result">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="newques" class="col-md-12">
+                    <div class="form h-100" style="height: 100%; padding: 95px;">
+                        <h3>All Questions</h3>
+
+                        <div>
+                            <h5>Question 1 :</h5>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
+    </div>
+    <script type="module" src="/assets/js/ques.js"></script>
+    <script src=/assets/js/index.js></script>
+    <script src=/assets/js/profile.js></script>
+    <script type="module" src="/assets/js/auth_signout.js"></script>
+    <script type="module" src="/assets/js/auth_state.js"></script>
+
+</body>
+
+</html>
